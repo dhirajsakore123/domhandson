@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<div class="box">
+    <h3>1.Write the code to access element which is having id as "text"</h3>
+    <pre>
+       ANS=>   const getelement=()=>{
+               document.getElementById("text")
+             }
+    </pre>
+</div>
+
+<div class="box">
+    <h3>2.Write the code to access element which is having tag as "h1"</h3>
+    <pre>
+       ANS=>  const getelement=()=>{
+        document.getElementsByTagName("h1")
+      }
+    </pre>
+</div>
+
+<div class="box">
+    <h3>3.Write the code to access element which is having class as "box"</h3>
+    <pre>
+       ANS=>  const getelement=()=>{
+        document.getElementsByClassName("box")
+      }
+    </pre>
+</div>
+
+<div class="box">
+    <h3>4.Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</h3>
+    <h1  >
+        Hello
+    </h1>
+    <button onclick="getelement()" >change</button>
+</div>
+
+<div class="box">
+    <h3>5.Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h3>
+    <p>
+        Hello world
+    </p>
+    <button onclick="change()" >change</button>
+</div>
+
+<div class="box">
+    <h3>
+    
+       6. Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"</h3>
+    <h1>Hello</h1>
+    <button onclick="changecolor()"  >change</button>
+</div>
+
+<div class="box">
+    <h3>
+    
+        7.Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</h3>
+    <button onclick="changeflex()"  >change flex direction</button>
+
+  
+</div>
+<div id="flexcontainer">
+   <div class="lux">1</div>
+   <div class="lux">2</div>
+   <div class="lux">3</div>
+  </div>
+
+
+  
+  <div class="gridcontainer">
+
+    <div class="lux1 lux2">8.What’s the difference between window vs document?</div>
+    <div class="lux1"> Window</div>
+    <div class="lux1">Document</div>
+    <div class="lux1 lux3">1. It represents the browser window in which you are seeing the content.
+    </div>
+    <div class="lux1 lux3">1. It represents the document loaded inside the window or browser.
+    </div>
+    <div class="lux1 lux3">2. The properties related to it are stored in the window object
+    </div>
+    <div class="lux1 lux3">2. The properties related to it are stored in the document object.
+    </div>
+    <div class="lux1 lux3">3. It is loaded before the document because of the window container document.
+    </div>
+    <div class="lux1 lux3">3. It is loaded after the loading window because the window contains a document.
+    </div>
+    <div class="lux1 lux3">4. The window is the global element for all objects, functions, etc.</div>
+
+    <div class="lux1 lux3">4. It is the root element of the document object model.
+    </div>
+  </div>
+
+  <h1 id="time "onclick="startClock()">time</h1>
+  <h1 id="clock"> </h1>
+
+<a href="./index2.html"><h1>play game</h1></a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
